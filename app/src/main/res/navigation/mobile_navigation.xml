@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_map">
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.client.ui.map.MapFragment"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/navigation_friends"
+        android:name="com.client.ui.friends.FriendsFragment"
+        tools:layout="@layout/fragment_friends" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.client.ui.settings.SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

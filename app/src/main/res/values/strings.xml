@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Client</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_map">Карта</string>
+    <string name="title_friends">Друзья</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="tab_text_1">Друзья</string>
+    <string name="tab_text_2">Заявки</string>
+</resources>
